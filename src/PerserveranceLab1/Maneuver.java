@@ -10,6 +10,41 @@ import edu.fiu.sysdesign.SelfCheckCapable;
  *
  */
 public class Maneuver implements SelfCheckCapable {
+		String Motor;
+		String Wheels;
+		
+		
+		/**
+		 * 
+		 * Rover moves forward
+		 */
+		Void ForwardMove () {
+			
+		}
+		
+		/**
+		 * 
+		 * Rover moves backwards
+		 */
+		Void BackMove () {
+			
+		}
+		
+		/**
+		 * 
+		 * Rover Turns Left
+		 */
+		Void LeftTurn () {
+			
+		}
+		
+		/**
+		 * 
+		 * Rover Turns Right
+		 */
+		Void RightTurn () {
+			
+		}
 
 	@Override
 	public String getComponentName() {

@@ -10,7 +10,25 @@ import edu.fiu.sysdesign.SelfCheckCapable;
  *
  */
 public class Transceiver implements SelfCheckCapable {
-
+	String Receiver;
+	String Antenna;
+	
+	/**
+	 * 
+	 * Commands sent to the rover
+	 */
+	InputCommand() {
+		
+	}
+	
+	/**
+	 * 
+	 * Commands from to the rover
+	 */
+	OutputCommand() {
+		
+	}
+	
 	@Override
 	public String getComponentName() {
 		// TODO Auto-generated method stub

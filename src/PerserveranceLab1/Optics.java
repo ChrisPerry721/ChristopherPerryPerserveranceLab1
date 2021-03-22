@@ -10,7 +10,25 @@ import edu.fiu.sysdesign.SelfCheckCapable;
  *
  */
 public class Optics implements SelfCheckCapable {
+	String Lens;
+	
+	/**
+	 * Lens captures video
+	 * @Returns a Video
+	 */
+	Video () {
+		
+	}
 
+	/**
+	 * Lens captures Picture
+	 * @Returns a picutre
+	 */
+	Picture () {
+		
+
+		
+	}
 	@Override
 	public String getComponentName() {
 		// TODO Auto-generated method stub

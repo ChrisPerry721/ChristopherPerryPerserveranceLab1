@@ -10,6 +10,34 @@ import edu.fiu.sysdesign.SelfCheckCapable;
  *
  */
 public class Detection implements SelfCheckCapable {
+	String Sensors;
+	
+	
+	/**
+	 * Detects atmospheric Temperature
+	 * @returns details on current temperatures
+	 */
+	TemperatureTracking () {
+		
+	}
+
+	/**
+	 * Detects surrounding obstacles
+	 * @returns	details of surrounding obstacles
+	 */
+	ObstacleDetection () {
+		
+	}
+
+	}
+
+	/**
+	 * Detects surrounding objects
+	 * @returns	details of surrounding objects
+	 */
+	ObjectDetecti0n () {
+	
+	}	
 
 	@Override
 	public String getComponentName() {
